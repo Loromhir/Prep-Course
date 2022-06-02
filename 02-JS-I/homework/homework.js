@@ -159,7 +159,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  let elevar = Math.pow(num, exp);
+  let elevar = Math.pow(num, exponent);
   return elevar;
   
 }
@@ -181,7 +181,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  let redondear= Math.random(num);
+  let redondear= Math.random();
   return redondear;
 }
 
