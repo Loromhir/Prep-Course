@@ -115,7 +115,7 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   var z= x/y;
-  var resto= x - z
+  var resto= x - (z * y) 
   return resto
 }
 
