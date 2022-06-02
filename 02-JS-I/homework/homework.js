@@ -114,8 +114,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var z= x/y;
-  var resto= x - (z * y) 
+  resto= x % y;
   return resto
 }
 
