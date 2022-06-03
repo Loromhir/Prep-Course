@@ -130,10 +130,10 @@ function fizzBuzz(numero) {
   // De lo contrario, devuelve el numero
   if (numero % 3 === 0){
     return "fizz"
-  }else if (numero % 5 === 0){
+  } if (numero % 5 === 0){
     return "buzz"
-  }else if (numero % 3 === 0 && numero % 5 === 0){
-    return "fizzbuzz"
+  }   if (numero % 3 === 0 && numero % 5 === 0){
+    return "fizzbuzz";
   }else{ 
     return numero;
   }
