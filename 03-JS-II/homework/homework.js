@@ -79,7 +79,7 @@ function colors(color) {
       
       case "orange": return "This is orange";
       
-    default: "Color not found";
+    default: return "Color not found";
     
       
   }
