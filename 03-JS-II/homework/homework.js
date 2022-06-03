@@ -80,7 +80,7 @@ function colors(color) {
       case "orange": "This is orange";
       break;
     default: "Color not found";
-      break;
+    
       
   }
 }
