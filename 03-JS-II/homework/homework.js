@@ -56,12 +56,9 @@ function saludo(idioma) {
       return "Ni Hao!"
     }else if(idioma == "ingles"){
       return "Hello!"
-    }else if (!idioma =="aleman" && 
-              !idioma =="mandarin" && 
-              !idioma =="ingles" && 
-              idioma ==`undefined`) {
-                return "Hola!"
-              }
+    }else {
+      return "Hola!"
+    }
 
 }
 
@@ -74,16 +71,16 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   switch (color) {
-    case blue:
+    case "blue":
       "This is blue"
       break;
-      case red:
+      case "red":
         "This is red"
         break;
-        case green:
+        case "green":
       "This is green"
       break;
-      case orange:
+      case "orange":
       "This is orange"
       break;
     default:
@@ -107,6 +104,11 @@ function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (numero< 50 && numero > 20){
+    return true;
+  }else{
+    return false;
+  }
 }
 
 function esEntero(numero) {
