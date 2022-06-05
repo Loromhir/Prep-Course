@@ -96,7 +96,7 @@ function agregarNumeros(numeros) {
     sum += numeros[i];
     
   }
-  
+  return sum;
 }
 
 
