@@ -78,6 +78,12 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  var index = array.indexOf(elemento);
+  if (index !== -1){
+    return true;
+  }else{ 
+    return false;
+  }
 }
 
 
@@ -85,6 +91,12 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  numeros.reduce(
+    (total, num)=> {
+    return total + num;
+  }
+  );
+  
 }
 
 
