@@ -106,7 +106,7 @@ function promedioResultadosTest(resultadosTest) {
   // Tu código:
   let sum= 0;
    var divisor = resultadosTest.length -1;
-   for (let i = 0; i < resultadosTest.length; i++) {
+   for (let i = 0; i < resultadosTest.length -1; i++) {
      sum += resultadosTest[i];
    }
       const prom= sum / divisor;
