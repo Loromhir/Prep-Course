@@ -105,10 +105,13 @@ function promedioResultadosTest(resultadosTest) {
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
    var divisor = resultadosTest.length -1;
-   var dividendo= resultadosTest.reduce(
-     (total, num)=>{
-       return total + num; 
-      });
+   var dividendo= ()=>{
+     let sum= 0;
+     for (let i = 0; i < resultadosTest.length; i++) {
+       const element = resultadosTest[i];
+       
+     }
+   }
       const prom= dividendo / divisor;
       return prom;
 }
