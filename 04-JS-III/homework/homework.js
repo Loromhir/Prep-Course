@@ -67,7 +67,7 @@ function dePalabrasAFrase(palabras) {
   for (let i = 0; i < n; i++) {
     frase += "" + palabras[i] + " ";
   }
-  frase += '';
+  frase.trim();
   return frase;
 }
 
