@@ -186,15 +186,18 @@ function mesesDelAño(array) {
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
   var totalMes= array.filter(checkMes);
-  var stotalMes= "No se encontraron los meses pedidos"
-  function checkMes(mes) {
-    if (mes === "Marzo" && mes === "Noviembre" && mes === "Enero"){
-      return totalMes;
-    }   else{ 
-      return stotalMes
-    }
-  }
   
+  function checkMes(mes) {
+    return (mes === "Marzo" || mes === "Noviembre"|| mes === "Enero")   
+  }
+  var retorno= function() {
+    if (totalMes.length < 3){
+      return "No se encontraron los meses pedidos"
+    }else{
+      return totalMes;
+    }
+  }()
+  return retorno;
 }
 
 
