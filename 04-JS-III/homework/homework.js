@@ -160,7 +160,7 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  if (n[0]=== 9){
+  if (n.charAt(0) === 9){
     return true;
   }else{
     return false;
