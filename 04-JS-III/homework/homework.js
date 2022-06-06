@@ -188,14 +188,9 @@ function mesesDelAño(array) {
   var totalMes= array.filter(checkMes);
   
   function checkMes(mes) {
-    if(mes === "Marzo" || mes === "Noviembre"||mes === "Enero" ){
-      
-      totalMes.push(mes)
-    }
-    
-    return totalMes;
+    return (mes === "Marzo" || mes === "Noviembre"||mes === "Enero")   
   }
-  
+  return totalMes;
 }
 
 
