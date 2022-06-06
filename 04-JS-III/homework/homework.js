@@ -185,6 +185,8 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+  array.filter(checkMes);
+  
   function checkMes(mes) {
     if(mes === "Marzo" || mes === "Noviembre"||mes === "Enero" ){
       var totalMes= [];
@@ -193,7 +195,7 @@ function mesesDelAño(array) {
     
     return totalMes;
   }
-  array.filter(checkMes);
+  
 }
 
 
