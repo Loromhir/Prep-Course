@@ -221,6 +221,15 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var fallo = function() { return "Se interrumpió la ejecución" } ;
+  for (let i = 0; i < 10; i++) {
+    const num= numero +2 ;
+    if(num === i){
+      fallo;
+     break;
+    };
+  };
+  return num;
 }
 
 
