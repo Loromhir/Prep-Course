@@ -175,12 +175,7 @@ function todosIguales(arreglo) {
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
   var e = arreglo[0];
-  if (arreglo.every(e)){
-    return true;
-  }else {
-    return false;
-  }
-  
+  return arreglo.every(e);
 } 
 
 
