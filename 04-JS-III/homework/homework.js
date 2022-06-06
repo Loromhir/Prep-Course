@@ -189,12 +189,12 @@ function mesesDelAño(array) {
   
   function checkMes(mes) {
     if (mes === "Marzo" && mes === "Noviembre" && mes === "Enero"){
-      return ["Marzo", "Noviembre", "Enero"];
+      return totalMes;
     }   else{ 
       return "No se encontraron los meses pedidos"
     }
   }
-  return totalMes;
+  
 }
 
 
