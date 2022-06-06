@@ -228,8 +228,9 @@ function breakStatement(numero) {
       fallo;
      break;
     };
+    return num;
   };
-  return num;
+  
 }
 
 
