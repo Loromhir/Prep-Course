@@ -221,15 +221,6 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código: 
-  // var fallo = function() { return "Se interrumpió la ejecución"} ;
-  // for (let i = 0; i < 10; i++) {
-  //   const num= numero +2 ;
-  //   if(num === i){
-  //     fallo;
-    
-  //   };
-  //   return num;
-  // };
   var ntotal = [];
   var suma= numero;
   let i = 0;
@@ -261,25 +252,15 @@ function continueStatement(numero) {
   var suma= numero;
   let i = 0;
   for (i ; i < 10; i++) {
-    if (suma === i){
+    if (i === 5){
       continue;
     }else{
       var suma= suma +2;
       ntotal.push(suma)
     };
-    error;
-  }
-var error= function() {
-
-  if (i === 5){
-      return "Se interrumpió la ejecución"
-    }else {
-      return ntotal;
-    }
+    return ntotal;
   }
 }
-
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
