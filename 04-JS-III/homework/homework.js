@@ -232,7 +232,8 @@ function breakStatement(numero) {
   // };
   var ntotal = [];
   var suma= numero;
-  for (let i = 0; i < 10; i++) {
+  let i = 0;
+  for (i ; i < 10; i++) {
     if (suma === i){
       break;
     }else{
