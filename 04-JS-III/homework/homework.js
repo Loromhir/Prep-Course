@@ -260,18 +260,20 @@ function continueStatement(numero) {
   //   };
   //   return ntotal;
   // }
-  // var ntotal= [];
-  // var suma= numero;
-  // let i = 0;
-  // while (i < 10) {
-  //     i++;
-  //     var suma= suma +2;
-  //     ntotal.push(suma); 
-  //     if(i = 5){
-  //         continue;
-  //     }
-  //     return ntotal;    
-  //    }
+  var ntotal= [];
+  var suma= numero;
+  let i = 0;
+  while (i < 10) {
+     
+      var suma= suma +2;
+      ntotal.push(suma); 
+      if(i = 5){
+          continue;
+      }
+      i++;
+      return ntotal; 
+
+     }
   
 }
 // No modificar nada debajo de esta línea
