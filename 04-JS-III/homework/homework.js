@@ -220,16 +220,31 @@ function breakStatement(numero) {
   //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y 
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
-  // Tu código:
-  var fallo = function() { return "Se interrumpió la ejecución" } ;
+  // Tu código: 
+  // var fallo = function() { return "Se interrumpió la ejecución"} ;
+  // for (let i = 0; i < 10; i++) {
+  //   const num= numero +2 ;
+  //   if(num === i){
+  //     fallo;
+    
+  //   };
+  //   return num;
+  // };
+  var ntotal = [];
+  var suma= numero;
   for (let i = 0; i < 10; i++) {
-    const num= numero +2 ;
-    if(num === i){
-      fallo;
-     break;
+    if (suma === i){
+      break;
+    }else{
+      var suma= suma +2;
+      ntotal.push(suma)
     };
-    return num;
-  };
+  }
+    if (suma === i){
+      return "Se interrumpió la ejecución"
+    }else {
+      return ntotal;
+    }
   
 }
 
