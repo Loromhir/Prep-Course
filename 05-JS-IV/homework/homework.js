@@ -69,9 +69,9 @@ function tieneEmail (usuario) {
   // De lo contratio, devuelve "false"
   // Tu código:
       if (usuario.email = undefined) {
-        return false;
-      }else{
         return true;
+      }else{
+        return false;
       }
 }
 
