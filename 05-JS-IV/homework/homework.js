@@ -48,7 +48,7 @@ function eliminarPropiedad (objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
-  objeto[unaPropiedad].delete;
+  delete objeto[unaPropiedad];
   return objeto;
 }
 
