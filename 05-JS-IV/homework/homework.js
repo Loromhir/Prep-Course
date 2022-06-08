@@ -21,8 +21,8 @@ function agregarPropiedad (objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
-  property= z;
-  objeto.z= null;
+  property= {name : z};
+  objeto.property.name= null;
   return objeto;
   
 }
