@@ -57,8 +57,8 @@ function nuevoUsuario (nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
       var objeto ={
-        nombre: nombre,
-        email: email,
+        nombre: nombre,   //asi de sencillo, ya que cuando se llame a la funcion ya va a existir 
+        email: email,     //el objeto al cual se referencian sus propiedades en el argumento de 'objeto'
         password: password
       };
       return objeto;
@@ -68,6 +68,11 @@ function tieneEmail (usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
+      if (usuario.email = undefined) {
+        return false;
+      }else{
+        return true;
+      }
 }
 
 function tienePropiedad (objeto, propiedad) {
