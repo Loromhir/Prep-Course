@@ -69,9 +69,9 @@ function tieneEmail (usuario) {
   // De lo contratio, devuelve "false"
   // Tu código:
       if (usuario.email) {
-        return false;
-      }else{
         return true;
+      }else{
+        return false;
       }
 }
 
@@ -80,7 +80,7 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (objeto.email){
+  if (objeto.key){
     return true;
   }
   else{
