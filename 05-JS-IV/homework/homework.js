@@ -80,7 +80,7 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (objeto.key){
+  if (objeto.key= "propiedad"){
     return true;
   }
   else{
