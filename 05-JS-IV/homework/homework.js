@@ -105,7 +105,7 @@ function actualizarPassword (usuario, nuevaPassword) {
   // Devuelve el objeto
   // Tu código:
   delete usuario.password;
-   usuario.push(nuevaPassword);
+   usuario={... nuevaPassword}
   return usuario;
 }
 
