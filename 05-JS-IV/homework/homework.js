@@ -126,11 +126,9 @@ function pasarUsuarioAPremium (usuarios) {
   // Tu código:
     usuarios.map(()=>{
       usuarioPremium= [];
-     if (usuario.esPremium = false){
         usuario.esPremium= true;
        usuarioPremium.push(usuario);
        return usuarioPremium;
-     } 
     })
 }
 
