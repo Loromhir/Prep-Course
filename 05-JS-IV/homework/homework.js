@@ -105,8 +105,8 @@ function actualizarPassword (usuario, nuevaPassword) {
   // Devuelve el objeto
   // Tu código:
   delete usuario.password;
-  var user= usuario.assign(usuario, nuevaPassword);
-  return user;
+   usuario.push(nuevaPassword);
+  return usuario;
 }
 
 function agregarAmigo (usuario, nuevoAmigo) {
