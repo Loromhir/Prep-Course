@@ -105,7 +105,7 @@ function actualizarPassword (usuario, nuevaPassword) {
   // Devuelve el objeto
   // Tu código:
   delete usuario.password;
-  var user= usuarioa.assign(usuario, nuevaPassword);
+  var user= usuario.assign(usuario, nuevaPassword);
   return user;
 }
 
