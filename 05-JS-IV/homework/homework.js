@@ -124,6 +124,14 @@ function pasarUsuarioAPremium (usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
+    usuarios.map(()=>{
+      usuarioPremium= [];
+     if (usuario.esPremium = false){
+        usuario.esPremium= true;
+       usuarioPremium.push(usuario);
+       return usuarioPremium;
+     } 
+    })
 }
 
 function sumarLikesDeUsuario (usuario) {
