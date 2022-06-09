@@ -104,6 +104,9 @@ function actualizarPassword (usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
   // Devuelve el objeto
   // Tu código:
+  delete usuario.password;
+  var user= usuarioa.assign(usuario, nuevaPassword);
+  return user;
 }
 
 function agregarAmigo (usuario, nuevoAmigo) {
