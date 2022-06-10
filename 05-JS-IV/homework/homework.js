@@ -139,7 +139,7 @@ function sumarLikesDeUsuario (usuario) {
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
   // Tu código:
-  for (let i = 0; i < posts.length; i++) {
+  for (let i = 0; i < usuario.posts.length; i++) {
     const post = posts[i];
     var total= 0;
     var suma= usuario.posts.post.likes + total;
