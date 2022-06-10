@@ -125,10 +125,8 @@ function pasarUsuarioAPremium (usuarios) {
   // Devuelve el array de usuarios
   // Tu código:
     usuarios.map(()=>{
-      usuarioPremium= [];
         usuario.esPremium= true;
-       usuarioPremium.push(usuario);
-       return usuarioPremium;
+       return usuarios;
     })
 }
 
