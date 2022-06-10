@@ -158,7 +158,7 @@ function agregarMetodoCalculoDescuento (producto) {
     var resta = producto.precio - multiplica;
     return resta;
   }
-  return producto[calcularPrecioDescuento()];
+  return producto[calcularPrecioDescuento]();
 
 }
 
