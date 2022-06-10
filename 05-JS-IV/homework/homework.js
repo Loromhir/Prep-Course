@@ -124,12 +124,10 @@ function pasarUsuarioAPremium (usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
-    for (let i = 0; i < usuarios.length; i++) {
-      const usuario = usuarios[i];
-        if (usuario.esPremium != true){
-          usuario.esPremium= true;
-    }}
-      return usuarios;
+  usuarios.forEach(usuario => {
+    usuario['esPremium'] = true;
+  });
+return usuarios;
 }
 
 function sumarLikesDeUsuario (usuario) {
