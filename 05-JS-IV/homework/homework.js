@@ -125,7 +125,9 @@ function pasarUsuarioAPremium (usuarios) {
   // Devuelve el array de usuarios
   // Tu código:
     usuarios.map(()=>{
+      if (usuario.esPremium != true){
         usuario.esPremium= true;
+      }
        return usuarios;
     })
 }
