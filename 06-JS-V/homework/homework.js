@@ -9,10 +9,10 @@ function crearUsuario() {
   // Devuelve la clase
   // Tu código:}
   function Usuario(opciones){
-    this.usuario = usuario.opciones,
-    this.nombre = nombre.opciones,
-    this.email= email.opciones,
-    this.password= password.opciones
+    this.usuario = opciones.usuario,
+    this.nombre = opciones.nombre,
+    this.email= opciones.email,
+    this.password= opciones.password
   };
   Usuario.prototype.saludar= function(){
     return 'Hola, mi nombre es ' + this.nombre;
