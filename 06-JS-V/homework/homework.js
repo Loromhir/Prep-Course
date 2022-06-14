@@ -17,7 +17,7 @@ function crearUsuario() {
   Usuario.prototype.saludar= function(){
     return 'Hola, mi nombre es ' + this.nombre;
   }
-  return Usuario.saludar();
+  return Usuario
 }
 
 function agregarMetodoPrototype(Constructor) {
