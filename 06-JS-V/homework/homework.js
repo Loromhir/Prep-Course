@@ -7,7 +7,17 @@ function crearUsuario() {
   // El `contructor` debe tener un método llamado "saludar" en su `prototype` que devuelva una string 'Hola, mi nombre es {{nombre}}'
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
-  // Tu código:
+  // Tu código:}
+  function Usuario(usuario, nombre, email, password){
+    this.usuario = usuario,
+    this.nombre = nombre,
+    this.email= email,
+    this.password= password
+  };
+  Usuario.prototype.saludar= function(){
+    return 'Hola, mi nombre es ' + this.nombre;
+  }
+  return Usuario.saludar();
 }
 
 function agregarMetodoPrototype(Constructor) {
