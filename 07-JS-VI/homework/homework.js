@@ -48,7 +48,7 @@ function map(array, cb) {
   var arreglo = array.map(function (e) {
     return e;
   })
-  array.forEach(cb);
+  arreglo.forEach(cb);
   return arreglo;
 }
 
