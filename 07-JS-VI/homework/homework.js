@@ -46,8 +46,10 @@ function map(array, cb) {
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
   var arreglo=[];
-  array.map(function(e, i){
-    cb(e) = arreglo[i];
+  array.map(function(e){
+    var element = cb(e);
+      arreglo.push(element);
+  
   })
 }
 
